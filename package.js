@@ -27,6 +27,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('couchpotatowrapper');
+  api.use('lokenx:couchpotatowrapper');
   api.addFiles('couchpotatowrapper-tests.js');
 });
