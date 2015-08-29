@@ -38,7 +38,7 @@ Define your CouchPotato server details somewhere in your server-side code.
     CouchPotato.movieAdd(imdb_id);
     imdb_id should be a IMDB ID
 
-**movieDelete:**
+**movieDelete:** "Delete a media from the wanted list"
 
     CouchPotato.movieDelete(cp_id);
     cp_id should be a Couch Potato ID, can be retrieved using appAvailable
