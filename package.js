@@ -19,6 +19,7 @@ Package.onUse(function(api) {
   api.addFiles('lib/server/methods/movieDelete.js', ['server']);
   api.addFiles('lib/server/export/functions.js', ['server']);
 
+  api.use('meteor-base');
   api.use('check');
   api.use('http');
 
