@@ -20,6 +20,7 @@ Define your CouchPotato server details somewhere in your server-side code.
       CouchPotato.url = "http://192.168.0.1";
       CouchPotato.port = 5050;
       CouchPotato.api = "abcdef012345";
+      CouchPotato.directory = ""
     }
 
 ## Functions
