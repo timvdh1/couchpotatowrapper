@@ -17,6 +17,7 @@ Package.onUse(function(api) {
   api.addFiles('lib/server/methods/mediaGet.js', ['server']);
   api.addFiles('lib/server/methods/movieAdd.js', ['server']);
   api.addFiles('lib/server/methods/movieDelete.js', ['server']);
+  api.addFiles('lib/server/methods/profileList.js', ['server']);
   api.addFiles('lib/server/export/functions.js', ['server']);
 
   api.use('meteor-base@1.0.1');
